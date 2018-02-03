@@ -16,7 +16,7 @@ import android.widget.Toast;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
-public class MainActivity extends AppCompatActivity implements MobilInterface {
+public class MainActivity extends AppCompatActivity {
 
     private final static String TAG = MainActivity.class.getSimpleName();
 
@@ -161,8 +161,4 @@ public class MainActivity extends AppCompatActivity implements MobilInterface {
         Log.d(TAG, "onRestart: ");
     }
 
-    @Override
-    public void mobilTerbang(String iniTerbang) {
-
-    }
 }
